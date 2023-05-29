@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-	theme: {
-		extend: {
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  theme: {
+    extend: {
       colors: {
         'my-purple': '#7B4AE2',
         'my-white': '#EEEEEE',
@@ -15,7 +15,7 @@ module.exports = {
         poppins: 'Poppins, sans-serif'
 
       }
-    },
-	},
-	plugins: [],
+    }
+  },
+  plugins: []
 }
